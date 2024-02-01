@@ -143,7 +143,7 @@ background-color: #4D5AE5;
 cursor: pointer;
 display: block;
 padding: 16px 32px;
-width: 169px;
+min-width: 169px;
 height: 56px;
 margin: 0 auto;
 border: 0;
@@ -219,9 +219,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
-padding-bottom: 72px;
-
+padding: 120px 0
 }
 
 .team-list {
@@ -234,6 +232,10 @@ padding-bottom: 72px;
 background-color: #FFFFFF;
 }
 
+.name-position {
+    padding-bottom: 32px;
+    
+}
 .team-picture {  
 }
 
@@ -273,7 +275,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 padding-bottom: 72px;
-padding-top: 120px;
+padding-top: 120px 0;
 }
 
 .portfolio-list {
@@ -293,7 +295,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding-bottom: 8px;
+margin-bottom: 72px;
 padding-left: 16px;
 padding-top: 32px;
 }
@@ -326,7 +328,7 @@ text-transform: uppercase;
 display: flex;
 align-items: center;
 padding-top: 100px;
-padding-bottom: 16px;
+padding-bottom: 16px;min-width: ;
 }
 
 .footer-logo-part {
